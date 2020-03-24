@@ -1,6 +1,6 @@
 {
   "name": "zotero-clear-journal-abbrev",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Clear journal abbreviation of selected items",
   "scripts": {
     "lint": "tslint -t stylish --project .",
