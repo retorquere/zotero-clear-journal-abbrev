@@ -32,7 +32,7 @@
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
-    "zotero-plugin": "1.0.13"
+    "zotero-plugin": "1.0.14"
   },
   "xpi": {
     "name": "Clear Journal Abbrev for Zotero",
