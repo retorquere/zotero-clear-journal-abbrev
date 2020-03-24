@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://zotero-clear-journal-abbrev/skin/overlay.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://zotero-clear-journal-abbrev/locale/zotero-clear-journal-abbrev.dtd">
+
+<overlay id="zotero-clear-journal-abbrev-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <menupopup id="zotero-itemmenu">
+    <menuitem label="Clear journal abbreviations" oncommand="Zotero.ClearJournalAbbrev.clear();"/>
+  </menupopup>
+	
+	<!-- Include the main extension logic -->
+  <script src="chrome://zotero/content/include.js"/>
+  <script src="chrome://zotero-clear-journal-abbrev/content/webpack.js"/>
+  <script src="chrome://zotero-clear-journal-abbrev/content/ClearJournalAbbrev.js"/>
+</overlay>

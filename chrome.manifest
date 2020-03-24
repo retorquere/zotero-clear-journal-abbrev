@@ -1,0 +1,5 @@
+content	zotero-clear-journal-abbrev				content/
+locale	zotero-clear-journal-abbrev	en-US		locale/en-US/
+skin	zotero-clear-journal-abbrev	default		skin/
+
+overlay	chrome://zotero/content/zoteroPane.xul	chrome://zotero-clear-journal-abbrev/content/overlay.xul
